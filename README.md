@@ -178,8 +178,6 @@ Three Single Pole, 8-Throw rotary switches (SP8T) provide manual routing of osci
 |       8      | External Input 2 |
 
 
-<img src="/Media/CMOS_Synth_EDIT_c_Tobias_Erhardt.jpg" alt="CMOS Synthesizer Board" width="1080">  
-
 ---
 
 ## Schematics & design files
