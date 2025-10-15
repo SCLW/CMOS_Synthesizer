@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Zeichnung" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 822.05 561.26">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7 {
+        stroke: gray;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-3 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-4 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-5 {
+        stroke-width: 1.11px;
+      }
+
+      .cls-6 {
+        stroke-width: 1.42px;
+      }
+
+      .cls-7 {
+        stroke-width: .57px;
+      }
+
+      .cls-8 {
+        stroke: #eec643;
+        stroke-width: 2.93px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-6" x="17.01" y="17.01" width="788.03" height="527.24" rx="14.17" ry="14.17"/>
+    <rect class="cls-6" x="17.01" y="17.01" width="788.03" height="527.24" rx="14.17" ry="14.17"/>
+  </g>
+  <circle class="cls-2" cx="31.18" cy="31.18" r="3.54"/>
+  <circle class="cls-3" cx="411.02" cy="31.18" r="3.54"/>
+  <circle class="cls-4" cx="790.87" cy="31.18" r="3.54"/>
+  <circle class="cls-5" cx="790.87" cy="530.08" r="3.54"/>
+  <circle class="cls-1" cx="411.02" cy="530.08" r="3.54"/>
+  <circle class="cls-1" cx="221.1" cy="283.44" r="3.54"/>
+  <circle class="cls-1" cx="600.94" cy="283.44" r="3.54"/>
+  <circle class="cls-4" cx="31.18" cy="530.08" r="3.54"/>
+  <rect class="cls-8" x="8.5" y="8.5" width="805.04" height="544.25" rx="22.68" ry="22.68"/>
+  <line class="cls-7" x1="29.7" y1="29.7" x2="32.66" y2="32.66"/>
+  <line class="cls-7" x1="32.66" y1="29.7" x2="29.7" y2="32.66"/>
+  <line class="cls-7" x1="409.55" y1="29.7" x2="412.5" y2="32.66"/>
+  <line class="cls-7" x1="412.5" y1="29.7" x2="409.55" y2="32.66"/>
+  <line class="cls-7" x1="789.39" y1="29.7" x2="792.34" y2="32.66"/>
+  <line class="cls-7" x1="792.34" y1="29.7" x2="789.39" y2="32.66"/>
+  <line class="cls-7" x1="219.63" y1="281.96" x2="222.58" y2="284.91"/>
+  <line class="cls-7" x1="222.58" y1="281.96" x2="219.63" y2="284.91"/>
+  <line class="cls-7" x1="599.47" y1="281.96" x2="602.42" y2="284.91"/>
+  <line class="cls-7" x1="602.42" y1="281.96" x2="599.47" y2="284.91"/>
+  <line class="cls-7" x1="29.7" y1="528.6" x2="32.66" y2="531.56"/>
+  <line class="cls-7" x1="32.66" y1="528.6" x2="29.7" y2="531.56"/>
+  <line class="cls-7" x1="409.55" y1="528.6" x2="412.5" y2="531.56"/>
+  <line class="cls-7" x1="412.5" y1="528.6" x2="409.55" y2="531.56"/>
+  <line class="cls-7" x1="789.39" y1="528.6" x2="792.34" y2="531.56"/>
+  <line class="cls-7" x1="792.34" y1="528.6" x2="789.39" y2="531.56"/>
+</svg>
