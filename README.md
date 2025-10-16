@@ -16,7 +16,7 @@ REV A
 # About this project
 
 This CMOS Sound Experimentation Board is a modular experiment board for hands-on exploration of sound generation using simple logic circuits.
-Developed with students at the University of Arts and Design Karlsruhe (HfG) within the Circuitry-Based Sound seminar, it demonstrates how CMOS logic circuits can serve as building blocks for experimental sound creation and live performance.
+Developed with students at the University of Arts and Design Karlsruhe (HfG) within the [Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound)  seminar, it demonstrates how CMOS logic circuits can serve as building blocks for experimental sound creation and live performance.
 
 Unlike conventional synthesizers or digital DSP-based systems, this project relies entirely on discrete 4000-series CMOS logic ICs, all integrated on a single PCB that also serves as the user interface.
 The logic chips function as square-wave oscillators, frequency dividers, sequencers, square-wave modulators, noise sources, and pattern generators.
