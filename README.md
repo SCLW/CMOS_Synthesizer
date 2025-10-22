@@ -1,8 +1,6 @@
 <!--
 
-Photo Board with FSR
-
-REV A
+Copyright als Caption
 
 -->
 
