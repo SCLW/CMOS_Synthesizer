@@ -392,7 +392,7 @@ The design was completely reworked in 2024, resulting in two hardware revisions.
 Revision B (the current version) is documented in this repository.
 
 A photo of Revision A is shown below:  
-![Revision A](/Media/Revision_A.jpg)
+![Revision A](/Media/Revision_A.png)
 
 The original 2020 prototype:  
 ![CMOS Sound Generator 2020](/Media/DSC00055_V1_c_L_Schwarz.jpg)
