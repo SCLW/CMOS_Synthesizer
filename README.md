@@ -283,7 +283,9 @@ The following is a suggested sequence that outlines the build order without step
 4. **Mechanical assembly**
    - Mount main PCB on acrylic base plate using 8 spacers and M3 screws  
 
-<img src="cbs_c_Yunfei_Zhang_1.gif" width="1080">
+<img src="/Media/cbs_c_Yunfei_Zhang_1.gif" width="1080">
+
+
 
 ## Modifications and add-on boards
 
