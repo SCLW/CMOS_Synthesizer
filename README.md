@@ -2,6 +2,57 @@
 
 Copyright als Caption
 
+
+4068 4070 4077
+
+8 pin long
+3 pin long
+
+Caps
+
+Laser cutting for support board
+
+---------------
+
+
+
+
+1. Hi - Lo Frequency Range switch crosse connected
+2. Label Hi - Lo Frequency switch
+
+--> SP3T switch Lo - Mid - Hi
+
+
+3. Modulation of Output Audio Signal though Switch
+
+
+Leave out:
+
+Left sp8t
+No counter
+
+1 x 7070
+
+----
+
+LDR 4 sx 40106 different heights!
+Falscher Pfeil auf PrintSiebdruck (2 x to LFSR)
+
+--- 
+
+Cd4093
+- Gate inputs are open, better pull down
+- LED for Gate inputs
+
+---
+
+More LEDs
+
+---
+
+
+
+
 -->
 
 
