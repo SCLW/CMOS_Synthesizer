@@ -435,6 +435,7 @@ These suggestions are based on user feedback and observations from Rev B.
 * Add a battery holder footprint.
 * Add solder pads in parallel to the four open inputs of the CD40106 oscillator section. These pads could be used to attach force sensing resistors or other sensors for extended interaction possibilities.
 * Correct the relative placement of the four CD40106 breakout pads. Two of the paired pads sit slightly higher due to a layout mistake and are not aligned on the same horizontal grid. This should be corrected for the next revision.
+* The two central mounting holes are not perfectly centered and are offset by about 1 mm. This should be corrected in the next revision, and a new base plate should be designed according to the updated hole positions.
 
 ---
 
