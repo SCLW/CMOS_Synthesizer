@@ -406,20 +406,20 @@ These suggestions are based on user feedback and observations from Rev B.
 
 ### 2. Audio Output and Modulation
 
-* Implement audio output modulation using a CD4066 analog switch for logic-controlled gating or amplitude modulation.
+* Implement audio output modulation using a CD4066 analog switch for logic-controlled gating / amplitude modulation.
 
 ### 3. Circuit Optimization
 
 * Evaluate whether the binary counter stage (CD4024) is necessary.
 * One CD4070 XOR section may be sufficient for modulation tasks.
-* Redesign the CD4093 NAND gate oscillator inputs with proper pull-down resistors to avoid floating states.
+* Redesign the CD4093 NAND gate oscillator inputs with pull-down resistors.
 * Re-evaluate the number of SP8T rotary switches and remove any that are redundant.
 * Re-evaluate the CD4051 one-to-eight section if it is not needed.
 
 ### 4. Panel Design and Screen Printing
 
-* Correct the screen print arrow labeling. Two arrows currently point incorrectly to the LFSR section.
-* Add a dedicated power on-off switch for safer operation and easier handling.
+* Correct the screen print arrow labeling. Two arrows currently point to the LFSR section.
+* Add a dedicated power on-off switch.
 
 ### 5. Visual Feedback and Indicators
 
@@ -432,10 +432,10 @@ These suggestions are based on user feedback and observations from Rev B.
 
 ### 6. Additional Features and Expandability
 
-* Add a battery holder footprint for standalone, portable operation.
-* Add solder pads in parallel to the four open inputs of the CD40106 oscillator section. These pads could be used to attach force sensing resistors or other experimental sensors for extended interaction possibilities.
+* Add a battery holder footprint.
+* Add solder pads in parallel to the four open inputs of the CD40106 oscillator section. These pads could be used to attach force sensing resistors or other sensors for extended interaction possibilities.
 
-
+---
 
 ## Appendix
 
