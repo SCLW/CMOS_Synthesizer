@@ -410,6 +410,7 @@ These suggestions are based on user feedback and observations from Rev B.
 
 ### 3. Circuit Optimization
 
+* Add a dedicated power on-off switch.
 * Evaluate whether the binary counter stage (CD4024) is necessary.
 * One CD4070 XOR section may be sufficient for modulation tasks.
 * Redesign the CD4093 NAND gate oscillator inputs with pull-down resistors.
@@ -419,7 +420,6 @@ These suggestions are based on user feedback and observations from Rev B.
 ### 4. Panel Design and Screen Printing
 
 * Correct the screen print arrow labeling. Two arrows currently point to the LFSR section.
-* Add a dedicated power on-off switch.
 
 ### 5. Visual Feedback and Indicators
 
