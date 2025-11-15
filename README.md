@@ -1,61 +1,3 @@
-<!--
-
-Copyright als Caption
-
-
-4068 4070 4077
-
-8 pin long
-3 pin long
-
-Caps
-
-Laser cutting for support board
-
----------------
-
-
-
-
-1. Hi - Lo Frequency Range switch crosse connected
-2. Label Hi - Lo Frequency switch
-
---> SP3T switch Lo - Mid - Hi
-
-
-3. Modulation of Output Audio Signal though Switch
-
-
-Leave out:
-
-Left sp8t
-No counter
-
-1 x 7070
-
-----
-
-LDR 4 sx 40106 different heights!
-Falscher Pfeil auf PrintSiebdruck (2 x to LFSR)
-
---- 
-
-Cd4093
-- Gate inputs are open, better pull down
-- LED for Gate inputs
-
----
-
-More LEDs
-
----
-
-
-
-
--->
-
-
 # CMOS Sound Experimentation Board
 
 
@@ -449,9 +391,51 @@ The original 2020 prototype:
 ![CMOS Sound Generator 2020](/Media/DSC00055_V1_c_L_Schwarz.jpg)
 
 
-
-
 ---
+
+
+## Future Revisions
+
+The following notes summarize proposed improvements and refinements for upcoming hardware revisions of the CMOS Sound Experimentation Board.
+These suggestions are based on user feedback and observations from Rev B.
+
+### 1. Frequency Range Switching
+
+* Re-arrange the High / Low frequency range switch so that Low is on the left and High is on the right.
+* Consider replacing the current SPDT switch with an SP3T to add a Mid-range frequency option.
+
+### 2. Audio Output and Modulation
+
+* Implement audio output modulation using a CD4066 analog switch for logic-controlled gating or amplitude modulation.
+
+### 3. Circuit Optimization
+
+* Evaluate whether the binary counter stage (CD4024) is necessary.
+* One CD4070 XOR section may be sufficient for modulation tasks.
+* Redesign the CD4093 NAND gate oscillator inputs with proper pull-down resistors to avoid floating states.
+* Re-evaluate the number of SP8T rotary switches and remove any that are redundant.
+* Re-evaluate the CD4051 one-to-eight section if it is not needed.
+
+### 4. Panel Design and Screen Printing
+
+* Correct the screen print arrow labeling. Two arrows currently point incorrectly to the LFSR section.
+* Add a dedicated power on-off switch for safer operation and easier handling.
+
+### 5. Visual Feedback and Indicators
+
+* Add status LEDs throughout the board for clearer interaction and debugging.
+
+  * Gate input LEDs
+  * Audio output level LED
+  * Power on/off LED
+  * Optional LEDs per section to show logic activity or clock signals
+
+### 6. Additional Features and Expandability
+
+* Add a battery holder footprint for standalone, portable operation.
+* Add solder pads in parallel to the four open inputs of the CD40106 oscillator section. These pads could be used to attach force sensing resistors or other experimental sensors for extended interaction possibilities.
+
+
 
 ## Appendix
 
