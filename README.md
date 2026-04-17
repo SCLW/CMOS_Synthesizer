@@ -108,7 +108,7 @@ These circuits generate square-wave signals, each with its own frequency potenti
 
 ### XOR MODULATOR [2×]
 
-Two XOR-based square-wave modulators (CD4070) for logical ring modulationto create new harmonic relationships. Each modulated output is individually accessible and can be patched into other sections.
+Two XOR-based square-wave modulators (CD4070) for logical ring modulation to create new harmonic relationships. Each modulated output is individually accessible and can be patched into other sections.
 
 
 ### SWITCH 1 OF 8 [2×]
