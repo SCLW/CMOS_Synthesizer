@@ -64,7 +64,7 @@ The instrument has been used in university seminars, collective performances, an
 
 ## Disclaimer
 
-This material is for internal and educational purposes. Although prepared with care, errors may remain. Building this synthesizer may require additional knowledge/experience in electronics and prototyping. The materials are provided to encourage exploration and adaptation.
+This material is for educational and research purposes. Although prepared with care, errors may remain. Building this synthesizer may require additional knowledge/experience in electronics and prototyping. The materials are provided to encourage exploration and adaptation.
 
 ---
 
@@ -324,7 +324,7 @@ The potentiometers and switches are mounted vertically on the PCB, which serves 
 
 Note: In this revision, the two central mounting holes are slightly off-axis and not perfectly symmetrical, but this does not affect assembly or stability.
 
-For more details see [here](/Mechanical#baseplate).
+For more details see [here](/Mechanical#base-plate-drawing).
 
 **Files for laser cutting / editing**
 - [/Mechanical/Base_Plate_Dimensions.svg](/Mechanical/Base_Plate_Dimensions.svg)  
