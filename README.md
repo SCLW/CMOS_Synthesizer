@@ -296,7 +296,7 @@ In the 2024 revision B, the audio section is fixed on the main PCB.
 The LFSR can lock in an all-ones state. A small SMD add-on (CD4068, CD4070, CD4077) detects the static state and injects a seed pulse. It connects to the main board via three 1×8 and one 1×3 female headers and requires two additional wires for power (VCC and GND), which can be soldered to the unused IC18 (CD4070) through-hole pads. The wire connection is shown in the photo below. For the schematic see [here](/Exports#lfsr-deadlock-prevention-circuit-cd4068-cd4070-cd4077). 
 
 **Wire connections for powering the LFSR deadlock prevention circuit**  
-<img src="/Media/20251002_160941_c_Lorenz_Schwarz.png" alt="Wire connection detail" width="1080">
+<img src="/Media/20251002_160941_c_Lorenz_Schwarz.jpg" alt="Wire connection detail" width="1080">
 
 <details>
 
@@ -386,7 +386,7 @@ The design was completely reworked in 2024, resulting in two hardware revisions.
 Revision B (the current version) is documented in this repository.
 
 A photo of Revision A is shown below:  
-![Revision A](/Media/Revision_A.png)
+![Revision A](/Media/Revision_A.jpg)
 
 The original 2020 prototype:  
 ![CMOS Sound Generator 2020](/Media/DSC00055_V1_c_L_Schwarz.jpg)
