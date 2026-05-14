@@ -65,7 +65,7 @@ The board has been used as a shared platform across the Circuitry-Based Sound pr
 - **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
 - **MKULTRA Sound 2026**, HfG Karlsruhe (February 2026); board signals patched into a hacked VGA video signal generator to produce audiovisual patterns.
 
-Boards built by participants have been used in solo and ensemble configurations, patched together via the chained clock and external-input headers. Demo video and context: <https://medienkunst-sound.de/works/cmos-synthesizer>. The instrument is also documented under the Audio Electronics section of the personal portfolio at <https://lorenzschwarz.de/#project_03>. Further recordings and event documentation: <https://medienkunst-sound.de/events> and <https://github.com/SCLW/Circuitry-Based-Sound>.
+Boards built by participants have been used in solo and ensemble configurations, patched together via the chained clock and external-input headers. Demo video and context: <https://medienkunst-sound.de/works/cmos-synthesizer>.
 
 ---
 
