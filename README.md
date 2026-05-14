@@ -342,7 +342,7 @@ In the 2024 revision B, the audio section is fixed on the main PCB.
 
 <img src="/assets/img/deadlock-prevention-board.webp" alt="Top view of the LFSR deadlock-prevention add-on PCB, populated with six SMD ICs and three 8-bit shift-register output headers" width="1080">
 
-*Deadlock prevention add-on PCB (top view). © Lorenz Schwarz.*
+*CAM top view of the deadlock prevention add-on PCB.*
 
 The LFSR can lock in an all-ones state. A small SMD add-on (CD4068, CD4070, CD4077) detects the static state and injects a seed pulse. It connects to the main board via three 1×8 and one 1×3 female headers, and requires two additional wires for power (VCC and GND).
 
