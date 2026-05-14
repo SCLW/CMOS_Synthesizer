@@ -1,30 +1,25 @@
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+
 # CMOS Sound Experimentation Board
 
+**Lorenz Schwarz** · HfG Karlsruhe · ORCID [0009-0009-0626-3438](https://orcid.org/0009-0009-0626-3438)
 
+<img src="/assets/img/cmos-synth-edit_c_Yunfei_Zhang.jpg" width="1080">
 
-<img src="/Media/CMOS_Synth_edit_c_Yunfei_Zhang.jpg" width="1080">
+## About this project
 
-# About this project
+The board is an argument as much as an instrument. It proposes that simple 4000-series logic ICs, originally designed for calculators and digital clocks, can be reclaimed as expressive sound generators when arranged as a patchable interface. The result is intentionally raw: square waves, no envelopes, no MIDI, no DSP. In return it gives direct access to the underlying signal flow, making it as much a teaching tool as a performance instrument. In Circuitry-Based Sound it works as a shared platform; many boards have been built, modified, and played in ensemble settings.
 
-This CMOS Sound Experimentation Board is a modular experiment board for hands-on exploration of sound generation using simple logic circuits.
-Developed with students at the University of Arts and Design Karlsruhe (HfG) within the [Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound)  seminar, it demonstrates how CMOS logic circuits can serve as building blocks for experimental sound creation and live performance.
+Developed at the Karlsruhe University of Arts and Design (HfG) within the [Circuitry-Based Sound](https://github.com/SCLW/Circuitry-Based-Sound) seminar, it serves as a practice-based research output, part of an ongoing inquiry at HfG Karlsruhe into how self-built electronics shape experimental sound, collective performance, and arts pedagogy.
 
-Unlike conventional synthesizers or digital DSP-based systems, this project relies entirely on discrete 4000-series CMOS logic ICs, all integrated on a single PCB that also serves as the user interface.
-The logic chips function as square-wave oscillators, frequency dividers, sequencers, square-wave modulators, noise sources, and pattern generators.
-
-Through prewired connections, selectable switches, and patchable female headers and sockets, users can interconnect logic-level signals with jumper wires.
-This enables the exploration of rhythmic structures, grainy textures, drones, glitches, and complex noise patterns.
-The result is a compact environment for rich sound experimentation and musical interaction.
-
-The board’s modular layout encourages direct engagement with the circuitry itself, bridging the gap between circuit design, performance, and composition.
+Technically, the board integrates discrete 4000-series CMOS logic chips on a single PCB that also functions as the user interface. The chips operate as square-wave oscillators, frequency dividers, sequencers, modulators, noise sources, and pattern generators. Prewired connections, selectable switches, and patchable female headers and sockets let users interconnect logic-level signals with jumper wires to explore rhythmic structures, grainy textures, drones, glitches, and complex noise patterns.
 
 ---
 
 | **Project Title**     | CMOS Sound Experimentation Board                                                                                                            |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Version**           | 2.0                                                                                                                                         |
-| **Board Revision**    | Rev B                                                                                                                                       |
+| **Hardware Version**      | 2.0 (Rev B; first complete 2024 redesign of an earlier 2020 prototype now superseded)                                                   |
+| **Documentation Release** | v1.0.0 (first archived release of this repository)                                                                                      |
 | **Author / Designer** | Lorenz Schwarz                                                                                                                              |
 | **Status**            | Completed                                                                                                                                   |
 | **Start Date**        | April 2024                                                                                                                                  |
@@ -59,7 +54,56 @@ The instrument has been used in university seminars, collective performances, an
 
 
 
-<img src="/Media/CMOS_Synth_EDIT_c_Tobias_Erhardt.jpg" width="1080">
+<img src="/assets/img/cmos-synth-edit_c_Tobias_Ehrhardt.jpg" width="1080">
+
+
+## Performances and contexts of use
+
+The board has been used as a shared platform across the Circuitry-Based Sound programme since 2024, including:
+
+- **ng X — next_generation X festival**, ZKM, Karlsruhe (2024)
+- **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
+- **SAE Cape Town workshop**, Cape Town, South Africa (2025)
+- **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
+- **MKULTRA Sound 2026**, HfG Karlsruhe (February 2026); board signals patched into a hacked VGA video signal generator to produce audiovisual patterns.
+
+Boards built by participants have been used in solo and ensemble configurations, patched together via the chained clock and external-input headers. Demo video and context: <https://medienkunst-sound.de/works/cmos-synthesizer>. The instrument is also documented under the Audio Electronics section of the personal portfolio at <https://lorenzschwarz.de/#project_03>. Further recordings and event documentation: <https://medienkunst-sound.de/events> and <https://github.com/SCLW/Circuitry-Based-Sound>.
+
+---
+
+<img src="/assets/img/IMG_5902_c_Yunfei_Zhang.webp" alt="Circuitry-Based Sound participants preparing in the ZKM Klangdom" width="1080">
+
+*Circuitry-Based Sound participants preparing for the* next_generation X *festival performance in the ZKM Klangdom, Karlsruhe, 2024. Photo: © Yunfei Zhang.*
+
+<br>
+
+<img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp" alt="Bowed Electrons concert performance at Khwa ttu, structured improvisation with Dizu Plaatjies" width="1080">
+
+*Bowed Electrons / IMMP, concert at !Khwa ttu San Heritage Centre, South Africa, 2024 — structured improvisation with Dizu Plaatjies, combining electronic instruments and South African traditional instruments. Photo: © Clive Pringle.*
+
+<br>
+
+<img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
+
+*Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
+
+<br>
+
+<img src="/assets/img/IMG_9973_c_Yunfei_Zhang.webp" alt="Visitors inspecting the CMOS board at the ABC China booth, Open M Art Fair Hangzhou" width="1080">
+
+*Visitors inspecting the CMOS Sound Experimentation Board at the ABC China booth, Open M Art Fair, OōEli Hangzhou Tianmuli, China, 2025. Photo: © Yunfei Zhang.*
+
+<br>
+
+<img src="/assets/img/Konzert26_Jihye_Gebhart-23.webp" alt="Audiovisual performance with CMOS boards and a hacked VGA video signal generator" width="1080">
+
+*MKULTRA Sound 2026, audiovisual performance by Yunfei Zhang and Xinyun Zhang at HfG Karlsruhe, February 2026. The board controls a hacked VGA video signal generator while simultaneously functioning as a sound source. Photo: © Jihye Gebhart.*
+
+<br>
+
+<img src="/assets/img/Konzert26_Jihye_Gebhart-25.webp" alt="Live-generated VGA visual projected on a wall at HfG Karlsruhe" width="1080">
+
+*Live-generated VGA visual projected on a wall at HfG Karlsruhe during the same MKULTRA Sound 2026 performance by Xinyun Zhang and Yunfei Zhang. Photo: © Jihye Gebhart.*
 
 
 ## Disclaimer
@@ -73,7 +117,7 @@ This material is for educational and research purposes. Although prepared with c
 - **PCB:** custom 2-layer board
 - **Dimensions (Board):** 278 mm × 186 mm  
 - **Dimensions (Populated + Base Plate):** 284 mm × 192 mm × 35 mm
-- **Power Requirements:** 9–18 V DC (typical 9 V)  <!-- Keep 9–18 V consistently; change if needed -->
+- **Power Requirements:** Operating range 9–18 V DC; recommended 9–12 V (typical 9 V battery). The oscillator frequency-range table in the [Appendix](#appendix) is calibrated at 10 V.
 - **Component Types:**
   - **ICs:** CMOS 4000-series; mix of SMD and through-hole
   - **Passives:** SMD resistors (0805), SMD ceramic/electrolytic capacitors
@@ -92,10 +136,12 @@ This material is for educational and research purposes. Although prepared with c
 
 The board integrates a wide range of CMOS logic-based sound circuits, allowing direct experimentation with square-wave oscillators, counters, modulators, sequencers, and switches. All elements are accessible via female headers and can be interconnected using jumper wires to create complex rhythmic and sonic structures.
 
+In total the board offers up to **13 oscillator positions**: 8 gated oscillators based on CD4093 (sections 1–8 below), 4 sensor-input oscillators based on CD40106 (sections 9–12), and 1 master clock (also CD40106, described as its own section).
+
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="/Media/Overlay_functions_dark.svg">
-  <img alt="Overlay" src="/Media/Overlay_functions_bright.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="/assets/img/overlay-functions-dark.svg">
+  <img alt="Overlay" src="/assets/img/overlay-functions-light.svg">
 </picture>
 
 Functional diagram of the CMOS Sound Experimentation Board, showing the main circuit sections and their interconnections.
@@ -135,9 +181,9 @@ Based on CD4022, an 8-stage Johnson counter acting as a step sequencer. It outpu
 A divide-by-odd “pattern generator” implemented using CD4018 and CD4011. It generates rhythmic subdivisions by dividing the input clock into odd-numbered ratios (÷3, ÷5, ÷7, ÷9). The clock source is selectable through one of the rotary switches.
 
 
-### OSCILLATORS 9–13
+### OSCILLATORS 9–12
 
-Four auxiliary Schmitt-trigger oscillators (CD40106) with sockets for touch, light-dependent, or resistive sensors. Shares the IC also used for the clock.
+Four auxiliary Schmitt-trigger oscillators (CD40106) with sockets for touch, light-dependent, or resistive sensors. These share the same CD40106 IC as the master clock (see [Clock](#clock-1) below); inserting a variable resistor or sensor into the open pads activates each oscillator.
 
 
 ### CLOCK [1×]
@@ -174,12 +220,14 @@ Three Single Pole, 8-Throw rotary switches (SP8T) provide manual routing of osci
 
 ## Schematics & design files
 
-Complete circuit schematics (PDF) for all sections are in [`/Exports/`](./Exports/).  
-Editable EAGLE design files are in [`/PCB_Files/`](./PCB_Files/).  
-For a browsable SVG overview that links to PDFs, see [`/Exports/README.md`](./Exports/README.md).
+Complete circuit schematics (PDF) for all sections are in [`/assets/exports/`](./assets/exports/).  
+Editable EAGLE design files are in [`/assets/pcb/`](./assets/pcb/).  
+For a browsable SVG overview that links to PDFs, see [`/assets/exports/README.md`](./assets/exports/README.md).
+
+> **Note on EAGLE.** The `.brd` and `.sch` files were created with Autodesk EAGLE (last standalone release 9.6.2, now discontinued). They can still be opened in Autodesk Fusion's Electronics workspace, or imported into KiCad via its built-in EAGLE importer.
 
 
-# Build guide
+## Build guide
 
 The main PCB integrates all control elements (potentiometers, toggle switches, tactile buttons) directly. No separate front panel or off-board wiring is needed. One auxiliary add-on PCB prevents LFSR deadlock and mounts directly on the main board; see [LFSR Deadlock Prevention Circuit](#lfsr-deadlock-prevention-circuit-required).
 
@@ -187,7 +235,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 ## The main board
 
 
-<img src="/Media/Main_Board_Top.png" alt="Main Board Top View" width="1080">  
+<img src="/assets/img/main-board-top.png" alt="Main Board Top View" width="1080">  
 
 *CAM top view of the main board showing component outlines, silkscreen labels and pad holes.*  
  
@@ -195,7 +243,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 
 **Main Board with component outline**  
 
-<img src="/Media/Main_Board_Component_Outlines.svg" alt="Main Component Outlines" width="1080"> 
+<img src="/assets/img/main-board-component-outlines.svg" alt="Main Component Outlines" width="1080"> 
 
 *Top view of the main PCB showing component outlines and mounting holes. This overlay provides a visual reference for component placement.*
 
@@ -253,11 +301,11 @@ C1–C7, C8–C11, C12–C13, C14–C17, C18–C21, and C25–C29 act as timing 
 
 ### Assembly order
 
-The following is a suggested sequence that outlines the build order without step-by-step detail. Refer to the schematics in `/Exports/` and the board overlays above for orientation and placement.
+The following is a suggested sequence that outlines the build order without step-by-step detail. Refer to the schematics in `/assets/exports/` and the board overlays above for orientation and placement.
 
 1. **Main PCB**
    1) SMD resistors  
-   2) SMD capacitors (see [Appendix](#Appendix))  
+   2) SMD capacitors (see [Appendix](#appendix))  
    3) IC sockets  
    4) ICs  
    5) Controls (potentiometers & switches)  
@@ -288,14 +336,16 @@ In the 2024 revision B, the audio section is fixed on the main PCB.
 
 ### LFSR Deadlock Prevention Circuit (required)
 
-<img src="/Media/Deadlock_Prevention_Board.png" width="1080">
+<img src="/assets/img/deadlock-prevention-board.png" width="1080">
 
 *Deadlock prevention add-on PCB (top view).*
 
-The LFSR can lock in an all-ones state. A small SMD add-on (CD4068, CD4070, CD4077) detects the static state and injects a seed pulse. It connects to the main board via three 1×8 and one 1×3 female headers and requires two additional wires for power (VCC and GND), which can be soldered to the unused IC18 (CD4070) through-hole pads. The wire connection is shown in the photo below. For the schematic see [here](/Exports#lfsr-deadlock-prevention-circuit-cd4068-cd4070-cd4077). 
+The LFSR can lock in an all-ones state. A small SMD add-on (CD4068, CD4070, CD4077) detects the static state and injects a seed pulse. It connects to the main board via three 1×8 and one 1×3 female headers, and requires two additional wires for power (VCC and GND).
+
+The main board's original design included a CD4070 at position **IC18** as part of an on-board seeding circuit; in the current revision the add-on board takes over that function and IC18 is left unpopulated. Its through-hole pads are repurposed as solder points for the add-on's VCC and GND wires. (Note: the CD4070 *on the add-on* uses its own local designator **IC5**; the references to IC18 below are to the empty footprint on the main board.) The wire connection is shown in the photo below. For the schematic see [here](/assets/exports#lfsr-deadlock-prevention-circuit-cd4068-cd4070-cd4077). 
 
 **Wire connections for powering the LFSR deadlock prevention circuit**  
-<img src="/Media/20251002_160941_c_Lorenz_Schwarz.jpg" alt="Wire connection detail" width="1080">
+<img src="/assets/img/20251002-160941_c_Lorenz_Schwarz.jpg" alt="Wire connection detail" width="1080">
 
 <details>
 
@@ -324,12 +374,12 @@ The potentiometers and switches are mounted vertically on the PCB, which serves 
 
 Note: In this revision, the two central mounting holes are slightly off-axis and not perfectly symmetrical, but this does not affect assembly or stability.
 
-For more details see [here](/Mechanical#base-plate-drawing).
+For more details see [here](/assets/mechanical#base-plate-drawing).
 
 **Files for laser cutting / editing**
-- [/Mechanical/Base_Plate_Dimensions.svg](/Mechanical/Base_Plate_Dimensions.svg)  
-- [/Mechanical/Base_Plate_Dimensions.dxf](/Mechanical/Base_Plate_Dimensions.dxf)  
-- [/Mechanical/Base_Plate_Dimensions.ai](/Mechanical/Base_Plate_Dimensions.ai)  
+- [/assets/mechanical/base-plate-dimensions.svg](/assets/mechanical/base-plate-dimensions.svg)  
+- [/assets/mechanical/base-plate-dimensions.dxf](/assets/mechanical/base-plate-dimensions.dxf)  
+- [/assets/mechanical/base-plate-dimensions.ai](/assets/mechanical/base-plate-dimensions.ai)  
 
 **Assembly hardware**
 - Screws: 8 × M3, length ~9 mm  
@@ -341,15 +391,15 @@ For more details see [here](/Mechanical#base-plate-drawing).
 
 Most components are available from Mouser Electronics and Reichelt Elektronik (Germany). The rotary switches were sourced from the German supplier [Das Musikding](https://www.musikding.de/Drehschalter-1-Pole-8-Stellungen-print) (item no. 1996).
 
-A compiled parts list with supplier links and reference information can be found here: **[/BOM/README.md](/BOM/README.md)**
+A compiled parts list with supplier links and reference information can be found here: **[/assets/bom/README.md](/assets/bom/README.md)**
 
 Since the design uses standard SMD parts and common 4000-series CMOS ICs, most components can be substituted with equivalent parts using the same footprints. Many values are non-critical (e.g., oscillator capacitors) and may be adjusted for experimentation.
 
 **Shopping cart PDFs/Excel**
-- [/BOM/Warenkorb_Okt05_0945.pdf](/BOM/Warenkorb_Okt05_0945.pdf)  
-- [/BOM/Warenkorb_Okt05_0945.xls](/BOM/Warenkorb_Okt05_0945.xls)  
-- [/BOM/Das_Musikding.pdf](/BOM/Das_Musikding.pdf)  
-- [/BOM/Warenkorb_Reichelt.pdf](/BOM/Warenkorb_Reichelt.pdf)
+- [/assets/bom/warenkorb-okt05-0945.pdf](/assets/bom/warenkorb-okt05-0945.pdf)  
+- [/assets/bom/warenkorb-okt05-0945.xls](/assets/bom/warenkorb-okt05-0945.xls)  
+- [/assets/bom/das-musikding.pdf](/assets/bom/das-musikding.pdf)  
+- [/assets/bom/warenkorb-reichelt.pdf](/assets/bom/warenkorb-reichelt.pdf)
 
 
 ## Additional material
@@ -362,20 +412,20 @@ In addition to the components required for assembly, a few extra items are neede
 
 ## Additional EAGLE packages
 
-- SMT audio jack (MJ-3523-SMT-TR): [/PCB_Files/MJ-3523-SMT-TR.lbr](/PCB_Files/MJ-3523-SMT-TR.lbr)  
-- SP8T rotary switch: [/PCB_Files/SP8T_Rotary.lbr](/LibraPCB_Filesries/SP8T_Rotary.lbr)
+- SMT audio jack (MJ-3523-SMT-TR): [/assets/pcb/MJ-3523-SMT-TR.lbr](/assets/pcb/MJ-3523-SMT-TR.lbr)  
+- SP8T rotary switch: [/assets/pcb/SP8T_Rotary.lbr](/assets/pcb/SP8T_Rotary.lbr)
 
 
 ## Documentation assets
 
-| **Category**    | **Contents**                                          | **Location**                 |
-| --------------- | ----------------------------------------------------- | ---------------------------- |
-| **Visuals**     | Photos, schematic SVGs, PCB overlays                  | [/Media/](/Media/)           |
-| **Build Files** | Gerber files, design files, and custom EAGLE packages | [/PCB_Files/](/PCB_Files/)   |
-| **Reference**   | IC datasheets                                         | [/Datasheets/](/Datasheets/) |
-| **Exports**     | PDF schematics, assembly drawings, overlays           | [/Exports/](/Exports/)       |
-| **BOM**         | Parts lists, shopping carts, and supplier links       | [/BOM/](/BOM/)               |
-| **Dimensions**  | Board and base plate drawings                         | [/Mechanical/](/Mechanical/) |
+| **Category**    | **Contents**                                          | **Location**                                   |
+| --------------- | ----------------------------------------------------- | ---------------------------------------------- |
+| **Visuals**     | Photos, schematic SVGs, PCB overlays                  | [/assets/img/](/assets/img/)                   |
+| **Build Files** | Gerber files, design files, and custom EAGLE packages | [/assets/pcb/](/assets/pcb/)                   |
+| **Reference**   | IC datasheets                                         | [/assets/documents/](/assets/documents/)       |
+| **Exports**     | PDF schematics, assembly drawings, overlays           | [/assets/exports/](/assets/exports/)           |
+| **BOM**         | Parts lists, shopping carts, and supplier links       | [/assets/bom/](/assets/bom/)                   |
+| **Dimensions**  | Board and base plate drawings                         | [/assets/mechanical/](/assets/mechanical/)     |
 
 
 ## Variants
@@ -385,14 +435,27 @@ The design was completely reworked in 2024, resulting in two hardware revisions.
 Revision B (the current version) is documented in this repository.
 
 A photo of Revision A is shown below:  
-![Revision A](/Media/Revision_A.jpg)
+![Revision A](/assets/img/revision-a.jpg)
 
 The original 2020 prototype:  
-![CMOS Sound Generator 2020](/Media/DSC00055_V1_c_L_Schwarz.jpg)
+![CMOS Sound Generator 2020](/assets/img/dsc00055-v1_c_Lorenz_Schwarz.jpg)
 
 
 ---
 
+
+## Errata / Known issues
+
+The following issues are known to be present in this archived release (Hardware Version 2.0, Rev B). They do not prevent the board from being built or used, but are listed here for transparency and to flag items to verify before reproducing the design from scratch.
+
+- **Off-axis mounting holes.** The two central mounting holes on the main PCB are offset by approximately 1 mm. This does not affect assembly or stability; the base-plate drawing in [`/assets/mechanical/`](./assets/mechanical/) reflects the actual positions, not the intended-symmetric ones.
+- **CD40106 breakout-pad alignment.** Two of the paired open pads for oscillators 9–12 (CD40106 sensor inputs) sit slightly higher than the others and are not aligned on the same horizontal grid. This is a layout oversight; the pads are functional but visually inconsistent.
+- **Silkscreen arrows on LFSR.** Two silkscreen arrows on the main board both point at the LFSR section. One is redundant; the labeling will be corrected in the next revision.
+- **CD4070 quantity and designator in the BOM table — to verify.** The main-board component table currently lists qty=4 CD4070 with designators IC4 and IC14. Together with the unpopulated original-design footprint at IC18 (see [LFSR Deadlock Prevention Circuit](#lfsr-deadlock-prevention-circuit-required)) and the active CD4070 on the add-on (locally designated IC5), the populated total is 3 in the current build. The qty=4 in the BOM should be reconciled against the actual board before the next revision.
+
+These items are listed in more detail under [Future Revisions](#future-revisions) below.
+
+---
 
 ## Future Revisions
 
@@ -459,4 +522,22 @@ Each gated Schmitt trigger oscillator (CD4093) includes a two-position slide swi
 | 47   | 0.26 – 5.6 |
 
 *Ranges are approximate; real values vary with tolerances, temperature, and supply voltage.*
+
+---
+
+## How to cite
+
+If you use the CMOS Sound Experimentation Board, its documentation, schematics, or photographs in research, teaching, or another open-hardware project, please cite this repository. A `CITATION.cff` file is provided so that GitHub's "Cite this repository" button gives a ready-to-use citation. Suggested form:
+
+> Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. <https://github.com/SCLW/CMOS_Synthesizer>
+
+Once the Zenodo DOI is minted for this release, the DOI badge and persistent identifier will be added here.
+
+---
+
+## License
+
+Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author or contributors credited in the filenames — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md). Copyright remains with the author(s) and credited photographers.
+
+Manufacturer datasheets in `assets/documents/` are copyright their respective manufacturers and are not covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only.
 

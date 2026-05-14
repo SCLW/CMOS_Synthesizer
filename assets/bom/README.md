@@ -1,6 +1,8 @@
-### (Bill of Materials)
+# Bill of Materials
 
-Most electronic components for the CMOS Synthesizer, such as resistors, capacitors, ICs and diodes, can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
+> Parts list for the [CMOS Sound Experimentation Board](../../README.md). For overall context, build guide, and licensing see the main README.
+
+Most electronic components for the CMOS Sound Experimentation Board — resistors, capacitors, ICs and diodes — can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
 
 
 | Qty | Value          | Package     | Parts                                               | Description                                     | Manufacturer No.      | Supplier Link                                                                                                                        |

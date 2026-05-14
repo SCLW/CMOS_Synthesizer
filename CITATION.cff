@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this hardware design or its documentation, please cite it as below."
+title: "CMOS Sound Experimentation Board"
+abstract: >-
+  A modular experiment board for hands-on exploration of sound generation
+  using simple 4000-series CMOS logic ICs. Developed at the Karlsruhe
+  University of Arts and Design (HfG Karlsruhe) within the Circuitry-Based
+  Sound seminar. Unlike conventional synthesizers or DSP-based systems, the
+  board relies entirely on discrete CMOS logic chips arranged as a patchable
+  interface for experimental sound creation and live performance. Released
+  under CC BY 4.0.
+type: software
+authors:
+  - given-names: Lorenz
+    family-names: Schwarz
+    orcid: "https://orcid.org/0009-0009-0626-3438"
+    affiliation: "Staatliche Hochschule für Gestaltung Karlsruhe (HfG Karlsruhe)"
+version: 1.0.0
+date-released: "2026-05-12"
+license: CC-BY-4.0
+repository-code: "https://github.com/SCLW/CMOS_Synthesizer"
+keywords:
+  - CMOS logic
+  - 4000-series
+  - sound synthesis
+  - open hardware
+  - DIY electronics
+  - experimental music
+  - educational electronics
+  - single-PCB instrument
+  - hardware hacking
+  - HfG Karlsruhe
