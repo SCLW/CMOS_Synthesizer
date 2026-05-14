@@ -19,6 +19,25 @@ version: 1.0.0
 date-released: "2026-05-14"
 license: CC-BY-4.0
 repository-code: "https://github.com/SCLW/CMOS_Synthesizer"
+identifiers:
+  # After Zenodo issues the DOI, fill in the two lines below.
+  # The "concept" DOI always resolves to the latest version on Zenodo;
+  # the "version" DOI is the immutable identifier for this v1.0.0 release.
+  - description: "Concept DOI for all versions"
+    type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+  - description: "Version DOI for v1.0.0"
+    type: doi
+    value: "10.5281/zenodo.XXXXXXX"
+references:
+  - type: software
+    title: "Circuitry-Based Sound"
+    repository-code: "https://github.com/SCLW/Circuitry-Based-Sound"
+    authors:
+      - given-names: Lorenz
+        family-names: Schwarz
+        orcid: "https://orcid.org/0009-0009-0626-3438"
+    notes: "Parent teaching and research initiative at HfG Karlsruhe of which the CMOS Sound Experimentation Board is one outcome."
 keywords:
   - CMOS logic
   - 4000-series

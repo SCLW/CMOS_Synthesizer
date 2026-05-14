@@ -247,7 +247,9 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 
 <details>
 
-<summary>PCB Reference Designators and Component List (click to expand)</summary>
+<summary>PCB Reference Designators and Component List — main board (click to expand)</summary>
+
+> This table lists the components for the **main board only**. The LFSR deadlock-prevention add-on has its own component list further down ([here](#lfsr-deadlock-prevention-circuit-required)) and its own entry in the [BOM file](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board).
 
 
 | Qty    | Value          | Package     | Designators                                         | Description                                  |
@@ -347,8 +349,9 @@ The main board's original design included a CD4070 at position **IC18** as part 
 
 <details>
 
-<summary>PCB Reference Designators and Component List (click to expand)</summary>
+<summary>PCB Reference Designators and Component List — LFSR deadlock-prevention add-on (click to expand)</summary>
 
+> This table lists the components for the **LFSR deadlock-prevention add-on only**. These parts are **not** included in the main-board BOM; for supplier links and manufacturer numbers see [BOM → LFSR deadlock-prevention add-on board](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board).
 
 | Qty | Value   | Package       | Parts                        | Description                                    |
 |-----|---------|---------------|------------------------------|------------------------------------------------|
@@ -357,8 +360,8 @@ The main board's original design included a CD4070 at position **IC18** as part 
 | 1   | CD4077  | SOIC-16       | IC6                          | Quad Exclusive-NOR Gate                        |
 | 6   | 0.1 µF  | C0805         | C1, C2, C44–C47              | Decoupling Capacitor                           |
 | 1   | 10 µF   | Panasonic_D   | C3                           | Polarized Electrolytic Capacitor               |
-| 3   | —       | 1×08, 2.54 mm | J1–J3                        | Female Header, 8-pin, 2.54 mm, **TH long-leg** |
-| 1   | —       | 1×03, 2.54 mm | J4                           | Female Header, 3-pin, 2.54 mm, **TH long-leg** |
+| 3   | —       | 1×08, 2.54 mm | J1–J3                        | **Arduino-style stackable** female header, 8-pin, 2.54 mm |
+| 1   | —       | 1×03, 2.54 mm | J4                           | **Arduino-style stackable** female header, 3-pin, 2.54 mm |
 | 2   | —       | —             | W1–W2                        | Cut wires, insulated, for board interconnect   |
 
 </details>
@@ -387,17 +390,20 @@ For more details see [here](/assets/mechanical#base-plate-drawing).
 
 ## Bill of Materials
 
-Most components are available from Mouser Electronics and Reichelt Elektronik (Germany). The rotary switches were sourced from the German supplier [Das Musikding](https://www.musikding.de/Drehschalter-1-Pole-8-Stellungen-print) (item no. 1996).
+A complete build needs parts for **both PCBs**: the main board (mostly through-hole) and the small LFSR deadlock-prevention add-on (SMD-only). The compiled parts list contains a separate table for each — see **[/assets/bom/README.md](/assets/bom/README.md)** for:
 
-A compiled parts list with supplier links and reference information can be found here: **[/assets/bom/README.md](/assets/bom/README.md)**
+- [Main board BOM](/assets/bom/README.md#main-board) — all components for the main PCB (resistors, capacitors, potentiometers, switches, ICs, connectors, rotary switches).
+- [LFSR deadlock-prevention add-on BOM](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board) — SOIC ICs, 0805 passives, and the long-leg stacking headers that join the add-on to the main board.
+
+Most components are available from Mouser Electronics and Reichelt Elektronik (Germany). The rotary switches were sourced from the German supplier [Das Musikding](https://www.musikding.de/Drehschalter-1-Pole-8-Stellungen-print) (item no. 1996).
 
 Since the design uses standard SMD parts and common 4000-series CMOS ICs, most components can be substituted with equivalent parts using the same footprints. Many values are non-critical (e.g., oscillator capacitors) and may be adjusted for experimentation.
 
-**Shopping cart PDFs/Excel**
-- [/assets/bom/warenkorb-okt05-0945.pdf](/assets/bom/warenkorb-okt05-0945.pdf)  
-- [/assets/bom/warenkorb-okt05-0945.xls](/assets/bom/warenkorb-okt05-0945.xls)  
-- [/assets/bom/das-musikding.pdf](/assets/bom/das-musikding.pdf)  
-- [/assets/bom/warenkorb-reichelt.pdf](/assets/bom/warenkorb-reichelt.pdf)
+**Reference shopping carts (snapshots)**
+- [/assets/bom/warenkorb-reichelt.pdf](/assets/bom/warenkorb-reichelt.pdf) — Reichelt cart (mechanical / sockets / headers)  
+- [/assets/bom/das-musikding.pdf](/assets/bom/das-musikding.pdf) — Musikding cart (rotary switches)
+
+> Mouser supplies the SMD passives and ICs. The compiled BOM at [/assets/bom/README.md](/assets/bom/README.md) lists every Mouser part number and direct product link; an online shopping cart snapshot is not bundled because Mouser's cart export embeds session-context URLs.
 
 
 ## Additional material
@@ -524,15 +530,22 @@ Each gated Schmitt trigger oscillator (CD4093) includes a two-position slide swi
 
 ## How to cite
 
-If you use the CMOS Sound Experimentation Board, its documentation, schematics, or photographs in research, teaching, or another open-hardware project, please cite this repository. A `CITATION.cff` file is provided so that GitHub's "Cite this repository" button gives a ready-to-use citation. Suggested form:
+If you use the CMOS Sound Experimentation Board, its documentation, schematics, or photographs in research, teaching, or another open-hardware project, please cite this repository. A `CITATION.cff` file is provided so that GitHub's "Cite this repository" button gives a ready-to-use citation. This release is also archived on Zenodo with a persistent DOI.
 
-> Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. <https://github.com/SCLW/CMOS_Synthesizer>
+Suggested citation:
+
+> Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX). Source: <https://github.com/SCLW/CMOS_Synthesizer>
+
+<!-- After Zenodo mints the DOI, replace the two XXXXXXX placeholders above and the ones in CITATION.cff with the version DOI for v1.0.0. The concept DOI (which always resolves to the latest version) can also be added as a separate line if desired. -->
+
 
 ---
 
 ## License
 
-Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author or contributors credited in the filenames — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md). Copyright remains with the author(s) and credited photographers.
+Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
 
-Manufacturer datasheets in `assets/documents/` are copyright their respective manufacturers and are not covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only.
+**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Yunfei_Zhang.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.jpg`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
+
+**Manufacturer datasheets.** PDFs in [`/assets/documents/`](./assets/documents/) are copyright their respective manufacturers and are **not** covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only. See [`/assets/documents/README.md`](./assets/documents/README.md).
 

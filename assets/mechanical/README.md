@@ -15,7 +15,8 @@ This folder contains all mechanical information and files needed to laser-cut th
 
 <br><br>
 
-**Base Plate Drawing**  
+## Base Plate Drawing
+
 ![Base Plate Mounting Holes and Outlines](/assets/mechanical/base-plate-dimensions.svg)  
 *Drawing of the acrylic base plate showing the board outline and drill-hole positions for PCB mounting.*
 

@@ -2,7 +2,14 @@
 
 > Parts list for the [CMOS Sound Experimentation Board](../../README.md). For overall context, build guide, and licensing see the main README.
 
-Most electronic components for the CMOS Sound Experimentation Board — resistors, capacitors, ICs and diodes — can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
+The board consists of two PCBs that are assembled separately and joined together: the **main board** and a small **LFSR deadlock-prevention add-on** that mounts on top. Each has its own parts list below. A full build needs both.
+
+- [Main board BOM](#main-board) — through-hole and SMD parts, sourced from Mouser (electronic components) and Reichelt (sockets, headers, potentiometers, switches), plus rotary switches from Das Musikding.
+- [LFSR deadlock-prevention add-on BOM](#lfsr-deadlock-prevention-add-on-board) — SMD-only parts (SOIC ICs, 0805 passives) plus long-leg stacking headers.
+
+## Main board
+
+Most electronic components for the main board — resistors, capacitors, ICs and diodes — can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
 
 
 | Qty | Value          | Package     | Parts                                               | Description                                     | Manufacturer No.      | Supplier Link                                                                                                                        |
@@ -45,3 +52,25 @@ Most electronic components for the CMOS Sound Experimentation Board — resistor
 | 4   | —              | 2×4 2.54    | —                                                   | Female Header                                   | MPE 094-2-008         | [Reichelt MPE 094-2-008](https://www.reichelt.de/de/de/buchsenleiste-2-54mm-2x08-gerade-mpe-094-2-008-p14493.html)                   |
 | 1   | —              | 2×3 2.54    | —                                                   | Female Header                                   | MPE 094-2-006         | [Reichelt MPE 094-2-006](https://www.reichelt.de/de/de/buchsenleiste-2-54mm-2x06-gerade-mpe-094-2-006-p14491.html)                   |
 | 4   | —              | 1×2 2.54    | —                                                   | Pin Header (Male)                               | BKL 10120919          | [Reichelt BKL 10120919](https://www.reichelt.de/de/de/stiftleiste-2-54mm-1x2-h-12-6mm-gerade-bkl-10120919-p17689.html)               |
+
+
+## LFSR deadlock-prevention add-on board
+
+Parts list for the auxiliary LFSR deadlock-prevention PCB. For the circuit description, assembly notes, and wiring detail see [main README → LFSR Deadlock Prevention Circuit](../../README.md#lfsr-deadlock-prevention-circuit-required). All ICs on this board are SMD (SOIC); the headers are through-hole **long-leg** type so that their pins can pass through the add-on PCB *and* reach the main board's empty IC18 footprint pads underneath, mechanically and electrically joining the two boards.
+
+| Qty | Value     | Package       | Parts            | Description                                              | Manufacturer No.        | Supplier Link                                                                                       |
+| --- | --------- | ------------- | ---------------- | -------------------------------------------------------- | ----------------------- | --------------------------------------------------------------------------------------------------- |
+| 4   | CD4068    | SOIC-14       | IC1–IC4          | 8-input NAND Gate (SMD)                                  | CD4068BM96/NOPB         | [Mouser 595-CD4068BM96](https://www.mouser.de/ProductDetail/595-CD4068BM96)                          |
+| 1   | CD4070    | SOIC-14       | IC5              | Quad 2-input XOR (SMD)                                   | CD4070BM96/NOPB         | [Mouser 595-CD4070BM96](https://www.mouser.de/ProductDetail/595-CD4070BM96)                          |
+| 1   | CD4077    | SOIC-16       | IC6              | Quad 2-input XNOR (SMD)                                  | CD4077BM96/NOPB         | [Mouser 595-CD4077BM96](https://www.mouser.de/ProductDetail/595-CD4077BM96)                          |
+| 6   | 0.1 µF    | C0805         | C1, C2, C44–C47  | SMD Ceramic Capacitor (decoupling)                       | C0805C104M5RACAUTO      | [Mouser 80-C0805C104M5RAUTO](https://www.mouser.de/ProductDetail/80-C0805C104M5RAUTO)                |
+| 1   | 10 µF     | PANASONIC_D   | C3               | Polarized Electrolytic Capacitor (SMD, bulk decoupling)  | 865230542002            | [Mouser 710-865230542002](https://www.mouser.de/ProductDetail/710-865230542002)                      |
+| 3   | —         | 1×8 2.54 mm   | J1–J3            | Arduino-style stackable female header, 8-pin, 2.54 mm    | PRT-09279               | [Mouser 474-PRT-09279](https://www.mouser.de/ProductDetail/474-PRT-09279)                            |
+| 1   | —         | 1×3 2.54 mm   | J4               | Arduino-style stackable female header, 3-pin, 2.54 mm    | PRT-13875               | [Mouser 474-PRT-13875](https://www.mouser.de/ProductDetail/474-PRT-13875)                            |
+| 2   | —         | —             | W1–W2            | Cut wires for VCC / GND bridges to IC18 footprint        | —                       | standard insulated hookup wire (≈22 AWG)                                                            |
+
+### Notes on the stacking headers
+
+J1–J4 are **Arduino-style stackable headers** (SparkFun PRT-09279 for the 1×8, PRT-13875 for the 1×3). Unlike the standard 2.54 mm female headers used elsewhere on the main board (e.g., the MPE 094 series with ~3 mm solder pins), Arduino-style stacking headers have ~12 mm pin tails. These long tails are essential here: they pass through the deadlock add-on PCB *and* extend into the empty IC18 footprint on the main board, mechanically and electrically joining the two boards in a single plug-in stack.
+
+Equivalent stacking headers from other manufacturers — for example **Sullins PPPC081LGBN-RC** (1×8, 11.43 mm pin) and **PPPC031LGBN-RC** (1×3) — work as direct substitutes provided the pitch is 2.54 mm and the pin tail length is ≥ ~11 mm.
