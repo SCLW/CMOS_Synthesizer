@@ -44,7 +44,7 @@ Anyone is free to reproduce, adapt, or extend the instrument for artistic work, 
 
 ## The instrument
 
-The sound generator is designed as a hands-on platform for exploring CMOS logic chips as sound generators. Its circuits are prewired for immediate operation but can also be manually interconnected to create new signal paths. All major inputs and outputs are broken out to female headers, allowing flexible patching with male-to-male jumper wires. Global I/O connections make it possible to chain multiple boards together.
+The instrument is designed for hands-on use. Its circuits are prewired for immediate operation but can also be manually interconnected to create new signal paths. All major inputs and outputs are broken out to female headers, allowing flexible patching with male-to-male jumper wires. Global I/O connections make it possible to chain multiple boards together.
 
 The instrument has been used in university seminars, collective performances, and collaborations between electronic and acoustic musicians, from workshops in Langa (Cape Town) to performances at the ZKM Karlsruhe.
 
