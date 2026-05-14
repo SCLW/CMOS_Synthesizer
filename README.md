@@ -2,8 +2,6 @@
 
 # CMOS Sound Experimentation Board
 
-**Lorenz Schwarz** · HfG Karlsruhe · ORCID [0009-0009-0626-3438](https://orcid.org/0009-0009-0626-3438)
-
 <img src="/assets/img/cmos-synth-edit_c_Yunfei_Zhang.jpg" width="1080">
 
 ## About this project
@@ -529,8 +527,6 @@ Each gated Schmitt trigger oscillator (CD4093) includes a two-position slide swi
 If you use the CMOS Sound Experimentation Board, its documentation, schematics, or photographs in research, teaching, or another open-hardware project, please cite this repository. A `CITATION.cff` file is provided so that GitHub's "Cite this repository" button gives a ready-to-use citation. Suggested form:
 
 > Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. <https://github.com/SCLW/CMOS_Synthesizer>
-
-Once the Zenodo DOI is minted for this release, the DOI badge and persistent identifier will be added here.
 
 ---
 
