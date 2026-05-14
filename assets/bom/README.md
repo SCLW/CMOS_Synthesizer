@@ -72,5 +72,3 @@ Parts list for the auxiliary LFSR deadlock-prevention PCB. For the circuit descr
 ### Notes on the stacking headers
 
 J1–J4 are **Arduino-style stackable headers** (SparkFun PRT-09279 for the 1×8, PRT-13875 for the 1×3). Unlike the standard 2.54 mm female headers used elsewhere on the main board (e.g., the MPE 094 series with ~3 mm solder pins), Arduino-style stacking headers have ~12 mm pin tails. These long tails are essential here: they pass through the deadlock add-on PCB *and* extend into the empty IC18 footprint on the main board, mechanically and electrically joining the two boards in a single plug-in stack.
-
-Equivalent stacking headers from other manufacturers — for example **Sullins PPPC081LGBN-RC** (1×8, 11.43 mm pin) and **PPPC031LGBN-RC** (1×3) — work as direct substitutes provided the pitch is 2.54 mm and the pin tail length is ≥ ~11 mm.
