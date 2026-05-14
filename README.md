@@ -271,7 +271,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 | 2      | CD4024         | DIL14       | IC6, IC8                                            | 7-stage Binary / Ripple Counter              |
 | 2      | CD4051         | DIL16       | IC2, IC5                                            | 8-channel Analog Multiplexer                 |
 | 1      | CD4053         | DIL16       | IC7                                                 | Triple 2-channel Analog Multiplexer          |
-| 4      | CD4070         | DIL14       | IC4, IC14                                           | Quad 2-input XOR                             |
+| 2      | CD4070         | DIL14       | IC4, IC14 (IC18 unpopulated)                        | Quad 2-input XOR                             |
 | 2      | CD4093         | DIL14       | IC1, IC3                                            | Quad 2-input NAND Schmitt Trigger            |
 | 3      | CD4094         | DIL16       | IC15–IC17                                           | 8-stage Shift Register                       |
 | 1      | LM358          | DIL08       | IC10                                                | Dual Operational Amplifier                   |
@@ -451,7 +451,6 @@ The following issues are known to be present in this archived release (Hardware 
 - **Off-axis mounting holes.** The two central mounting holes on the main PCB are offset by approximately 1 mm. This does not affect assembly or stability; the base-plate drawing in [`/assets/mechanical/`](./assets/mechanical/) reflects the actual positions, not the intended-symmetric ones.
 - **CD40106 breakout-pad alignment.** Two of the paired open pads for oscillators 9–12 (CD40106 sensor inputs) sit slightly higher than the others and are not aligned on the same horizontal grid. This is a layout oversight; the pads are functional but visually inconsistent.
 - **Silkscreen arrows on LFSR.** Two silkscreen arrows on the main board both point at the LFSR section. One is redundant; the labeling will be corrected in the next revision.
-- **CD4070 quantity and designator in the BOM table — to verify.** The main-board component table currently lists qty=4 CD4070 with designators IC4 and IC14. Together with the unpopulated original-design footprint at IC18 (see [LFSR Deadlock Prevention Circuit](#lfsr-deadlock-prevention-circuit-required)) and the active CD4070 on the add-on (locally designated IC5), the populated total is 3 in the current build. The qty=4 in the BOM should be reconciled against the actual board before the next revision.
 
 These items are listed in more detail under [Future Revisions](#future-revisions) below.
 
