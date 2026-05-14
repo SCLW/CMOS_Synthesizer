@@ -69,9 +69,9 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 ---
 
-<img src="/assets/img/IMG_5902_c_Yunfei_Zhang.webp" alt="Circuitry-Based Sound participants preparing in the ZKM Klangdom" width="1080">
+<img src="/assets/img/IMG_5902_c_Hongyu_Guo.webp" alt="Circuitry-Based Sound participants preparing in the ZKM Klangdom" width="1080">
 
-*Circuitry-Based Sound participants preparing for the* next_generation X *festival performance in the ZKM Klangdom, Karlsruhe, 2024. Photo: © Yunfei Zhang.*
+*Circuitry-Based Sound participants preparing for the* next_generation X *festival performance in the ZKM Klangdom, Karlsruhe, 2024. Photo: © Hongyu Guo.*
 
 <br>
 
@@ -545,7 +545,7 @@ Suggested citation:
 
 Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
 
-**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Yunfei_Zhang.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.jpg`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
+**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.jpg`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
 
 **Manufacturer datasheets.** PDFs in [`/assets/documents/`](./assets/documents/) are copyright their respective manufacturers and are **not** covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only. See [`/assets/documents/README.md`](./assets/documents/README.md).
 
