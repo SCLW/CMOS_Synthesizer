@@ -33,12 +33,6 @@
       "relation": "isPartOf",
       "resource_type": "software",
       "scheme": "url"
-    },
-    {
-      "identifier": "https://github.com/SCLW/CMOS_Synthesizer",
-      "relation": "isSupplementTo",
-      "resource_type": "software",
-      "scheme": "url"
     }
   ],
   "notes": "This deposit covers original schematics, board layouts, mechanical drawings, written documentation, and photographs by the author, all licensed under CC BY 4.0. Photographs credited in their filenames (e.g. *_c_Yunfei_Zhang.webp) remain © the named photographer and are included with their permission for documentation only — they are not redistributable under CC BY 4.0. Manufacturer IC datasheets in /assets/documents/ are © their respective manufacturers and are not covered by the CC BY 4.0 license of this repository."

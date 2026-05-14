@@ -2,7 +2,9 @@
 
 # CMOS Sound Experimentation Board
 
-<img src="/assets/img/cmos-synth-edit_c_Yunfei_Zhang.jpg" width="1080">
+<img src="/assets/img/cmos-synth-edit_c_Yunfei_Zhang.webp" alt="Assembled CMOS Sound Experimentation Board on a red acrylic base plate, patched with multi-color jumper wires" width="1080">
+
+*CMOS Sound Experimentation Board. Photo: © Yunfei Zhang.*
 
 ## About this project
 
@@ -52,7 +54,9 @@ The instrument has been used in university seminars, collective performances, an
 
 
 
-<img src="/assets/img/cmos-synth-edit_c_Tobias_Ehrhardt.jpg" width="1080">
+<img src="/assets/img/cmos-synth-edit_c_Tobias_Ehrhardt.webp" alt="Two CMOS Sound Experimentation Boards chained together with jumper wires between their global I/O headers" width="1080">
+
+*CMOS Sound Experimentation Board. Photo: © Tobias Ehrhardt.*
 
 
 ## Performances and contexts of use
@@ -93,13 +97,13 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 <br>
 
-<img src="/assets/img/Konzert26_Jihye_Gebhart-23.webp" alt="Audiovisual performance with CMOS boards and a hacked VGA video signal generator" width="1080">
+<img src="/assets/img/Konzert26_c_Jihye_Gebhart-23.webp" alt="Audiovisual performance with CMOS boards and a hacked VGA video signal generator" width="1080">
 
 *MKULTRA Sound 2026, audiovisual performance by Yunfei Zhang and Xinyun Zhang at HfG Karlsruhe, February 2026. The board controls a hacked VGA video signal generator while simultaneously functioning as a sound source. Photo: © Jihye Gebhart.*
 
 <br>
 
-<img src="/assets/img/Konzert26_Jihye_Gebhart-25.webp" alt="Live-generated VGA visual projected on a wall at HfG Karlsruhe" width="1080">
+<img src="/assets/img/Konzert26_c_Jihye_Gebhart-25.webp" alt="Live-generated VGA visual projected on a wall at HfG Karlsruhe" width="1080">
 
 *Live-generated VGA visual projected on a wall at HfG Karlsruhe during the same MKULTRA Sound 2026 performance by Xinyun Zhang and Yunfei Zhang. Photo: © Jihye Gebhart.*
 
@@ -233,7 +237,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 ## The main board
 
 
-<img src="/assets/img/main-board-top.png" alt="Main Board Top View" width="1080">  
+<img src="/assets/img/main-board-top.webp" alt="Main Board Top View" width="1080">  
 
 *CAM top view of the main board showing component outlines, silkscreen labels and pad holes.*  
  
@@ -259,8 +263,8 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 | 1      | 150 kΩ         | R0805       | R26                                                 | SMD Resistor                                 |
 | 7      | 10 kΩ          | R0805       | R14, R16–R20, R27                                   | SMD Resistor                                 |
 | 8      | 100 kΩ         | R0805       | R9–R12, R21–R22, R24–R25                            | SMD Resistor                                 |
-| 17     | 10 µF          | PANASONIC_D | C1, C3–C7, C12–C13, C23, C49–C53                    | Electrolytic Capacitor (SMD, two optional positions) |
-| 37     | 0.1 µF         | C0805       | C8–C11, C14–C17, C18–C22, C24–C29, C30–C41, C43–C48 | SMD Ceramic Capacitor                        |
+| 15     | 10 µF          | PANASONIC_D | C1–C7, C12–C13, C23, C49–C53                        | Electrolytic Capacitor (SMD; C23 optional — depends on master-clock timing choice) |
+| 36     | 0.1 µF         | C0805       | C8–C11, C14–C17, C18–C22, C24–C29, C31–C41, C43–C48 | SMD Ceramic Capacitor                        |
 | 14     | 100 kΩ         | POT_VER     | U$1–U$14                                            | Potentiometer, vertical                      |
 | 2      | —              |             | S12–S13                                             | Tactile pushbutton (momentary, SMD)          |
 | 8      | —              | THT         | S1–S8                                               | Toggle Switch, ON–ON                         |
@@ -275,7 +279,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 | 2      | CD4093         | DIL14       | IC1, IC3                                            | Quad 2-input NAND Schmitt Trigger            |
 | 3      | CD4094         | DIL16       | IC15–IC17                                           | 8-stage Shift Register                       |
 | 1      | LM358          | DIL08       | IC10                                                | Dual Operational Amplifier                   |
-| 1      | MBRS140        |             | D1                                                  | Schottky Protection Diode                    |
+| 1      | MBRS1540       |             | D1                                                  | Schottky Protection Diode (1.5 A / 40 V)     |
 | 1      | MJ-3523-SMT-TR | SMD         | —                                                   | Female Jack Connector, 3.5 mm, surface-mount |
 | 3      | —              | ROTARY      | S9–S11                                              | Rotary Switch                                |
 | 8      | —              | DIL14       | —                                                   | IC Socket                                    |
@@ -294,7 +298,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 | 4      | —              | 1×2 2.54    | —                                                   | Pin Header (Male)                            |
 
 
-C1–C7, C8–C11, C12–C13, C14–C17, C18–C21, and C25–C29 act as timing capacitors for the Schmitt-trigger RC oscillators in combination with their corresponding resistors. These values can be substituted to tailor the oscillator frequency ranges (see frequency table).
+C1, C3–C7, C8–C11, C12–C13, C14–C17, C18–C21, C23, and C25–C29 act as timing capacitors for the Schmitt-trigger RC oscillators in combination with their corresponding resistors. These values can be substituted to tailor the oscillator frequency ranges (see frequency table).
 
 </details>
 
@@ -336,16 +340,18 @@ In the 2024 revision B, the audio section is fixed on the main PCB.
 
 ### LFSR Deadlock Prevention Circuit (required)
 
-<img src="/assets/img/deadlock-prevention-board.png" width="1080">
+<img src="/assets/img/deadlock-prevention-board.webp" alt="Top view of the LFSR deadlock-prevention add-on PCB, populated with six SMD ICs and three 8-bit shift-register output headers" width="1080">
 
-*Deadlock prevention add-on PCB (top view).*
+*Deadlock prevention add-on PCB (top view). © Lorenz Schwarz.*
 
 The LFSR can lock in an all-ones state. A small SMD add-on (CD4068, CD4070, CD4077) detects the static state and injects a seed pulse. It connects to the main board via three 1×8 and one 1×3 female headers, and requires two additional wires for power (VCC and GND).
 
-The main board's original design included a CD4070 at position **IC18** as part of an on-board seeding circuit; in the current revision the add-on board takes over that function and IC18 is left unpopulated. Its through-hole pads are repurposed as solder points for the add-on's VCC and GND wires. (Note: the CD4070 *on the add-on* uses its own local designator **IC5**; the references to IC18 below are to the empty footprint on the main board.) The wire connection is shown in the photo below. For the schematic see [here](/assets/exports#lfsr-deadlock-prevention-circuit-cd4068-cd4070-cd4077). 
+The main board's original design included a CD4070 at position **IC18** as part of an on-board seeding circuit; in the current revision the add-on board takes over that function and IC18 is left unpopulated. Its through-hole pads are repurposed as solder points for the add-on's VCC and GND wires. (Note: the CD4070 *on the add-on* uses its own local designator **IC5**; the references to IC18 below are to the empty footprint on the main board.) The wire connection is shown in the photo below. For the schematic see [here](/assets/exports/README.md#lfsr-deadlock-prevention-circuit-cd4068-cd4070-cd4077). 
 
 **Wire connections for powering the LFSR deadlock prevention circuit**  
-<img src="/assets/img/20251002-160941_c_Lorenz_Schwarz.jpg" alt="Wire connection detail" width="1080">
+<img src="/assets/img/20251002-160941_c_Lorenz_Schwarz.webp" alt="Wire connection detail" width="1080">
+
+*VCC and GND wire connections for the LFSR deadlock prevention add-on. Photo: © Lorenz Schwarz.*
 
 <details>
 
@@ -375,7 +381,7 @@ The potentiometers and switches are mounted vertically on the PCB, which serves 
 
 Note: In this revision, the two central mounting holes are slightly off-axis and not perfectly symmetrical, but this does not affect assembly or stability.
 
-For more details see [here](/assets/mechanical#base-plate-drawing).
+For more details see [here](/assets/mechanical/README.md#base-plate-drawing).
 
 **Files for laser cutting / editing**
 - [/assets/mechanical/base-plate-dimensions.svg](/assets/mechanical/base-plate-dimensions.svg)  
@@ -439,10 +445,14 @@ The design was completely reworked in 2024, resulting in two hardware revisions.
 Revision B (the current version) is documented in this repository.
 
 A photo of Revision A is shown below:  
-![Revision A](/assets/img/revision-a.jpg)
+![Revision A](/assets/img/revision-a.webp)
+
+*Hardware Revision A (2024). Photo: © Lorenz Schwarz.*
 
 The original 2020 prototype:  
-![CMOS Sound Generator 2020](/assets/img/dsc00055-v1_c_Lorenz_Schwarz.jpg)
+![CMOS Sound Generator 2020](/assets/img/dsc00055-v1_c_Lorenz_Schwarz.webp)
+
+*CMOS Sound Generator, 2020 prototype. Photo: © Lorenz Schwarz.*
 
 
 ---
@@ -526,6 +536,8 @@ Each gated Schmitt trigger oscillator (CD4093) includes a two-position slide swi
 
 *Ranges are approximate; real values vary with tolerances, temperature, and supply voltage.*
 
+**A note on schematic vs. BOM values.** The exported schematics in [`/assets/exports/`](./assets/exports/) show nominal design values (22 µF electrolytic; 0.22 µF and 1 µF ceramic for the timing caps). The BOM in [`/assets/bom/README.md`](./assets/bom/README.md) specifies practical build values of 10 µF electrolytic and 0.1 µF ceramic, placing the oscillator ranges in a region useful for most patches. The footprints are identical (Panasonic-D for electrolytics, 0805 for ceramics), so any value from the table above can be substituted without board changes.
+
 ---
 
 ## How to cite
@@ -545,7 +557,7 @@ Suggested citation:
 
 Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
 
-**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.jpg`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
+**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.webp`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_c_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
 
 **Manufacturer datasheets.** PDFs in [`/assets/documents/`](./assets/documents/) are copyright their respective manufacturers and are **not** covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only. See [`/assets/documents/README.md`](./assets/documents/README.md).
 
