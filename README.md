@@ -87,9 +87,9 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 <br>
 
-<img src="/assets/img/IMG_9973_c_Yunfei_Zhang.webp" alt="Visitors inspecting the CMOS board at the ABC China booth, Open M Art Fair Hangzhou" width="1080">
+<img src="/assets/img/IMG_9973_c_Yunfei_Zhang.webp" alt="Visitors inspecting the CMOS board at the Open M Art Fair, Hangzhou" width="1080">
 
-*Visitors inspecting the CMOS Sound Experimentation Board at the ABC China booth, Open M Art Fair, OōEli Hangzhou Tianmuli, China, 2025. Photo: © Yunfei Zhang.*
+*Visitors inspecting the CMOS Sound Experimentation Board at the Open M Art Fair, OōEli Hangzhou Tianmuli, China, 2025. Photo: © Yunfei Zhang.*
 
 <br>
 
