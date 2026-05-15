@@ -15,7 +15,6 @@ If you redistribute or republish this repository, please be aware that the redis
 | File | Component | Function on the board |
 | --- | --- | --- |
 | `cd40106b.pdf` | CD40106B | Hex Schmitt-trigger inverter (oscillators 9–12, master clock) |
-| `cd4012b.pdf` | CD4012B | Dual 4-input NAND (general reference) |
 | `cd4018b.pdf` | CD4018B | Presettable divide-by-N counter (pattern generator) |
 | `cd4022b.pdf` | CD4022B | 8-stage Johnson counter (step sequencer) |
 | `cd4051b.pdf` | CD4051B | 8-channel analog multiplexer |

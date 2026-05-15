@@ -65,6 +65,7 @@ The board has been used as a shared platform across the Circuitry-Based Sound pr
 
 - **ng X, next_generation X festival**, ZKM, Karlsruhe (2024)
 - **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
+- **Workshop with Dizu Plaatjies**, Langa, Cape Town, South Africa (2024)
 - **SAE Cape Town workshop**, Cape Town, South Africa (2025)
 - **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
 - **MKULTRA Sound 2026**, HfG Karlsruhe (February 2026); board signals patched into a hacked VGA video signal generator to produce audiovisual patterns.
@@ -79,27 +80,21 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 <br>
 
-<img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp" alt="Bowed Electrons concert performance at Khwa ttu, structured improvisation with Dizu Plaatjies" width="1080">
-
-*Bowed Electrons / IMMP, concert at !Khwa ttu San Heritage Centre, South Africa, 2024. Structured improvisation with Dizu Plaatjies, combining electronic instruments and South African traditional instruments. Photo: © Clive Pringle.*
-
-<br>
-
 <img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy-02_c_Clive_Pringle.webp" alt="Close-up of a performer operating a CMOS Sound Experimentation Board during the Bowed Electrons concert at Khwa ttu, with other musicians in the background" width="1080">
 
 *Bowed Electrons / IMMP, !Khwa ttu San Heritage Centre, South Africa, 2024. A performer operates the CMOS Sound Experimentation Board during the concert; other musicians prepare in the background. Photo: © Clive Pringle.*
 
 <br>
 
-<img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
+<img src="/assets/img/dizu-plaatjies-langa-2024_c_Paul_Modler.webp" alt="Participants of a CMOS Sound Experimentation Board workshop at Dizu Plaatjies's place in Langa, Cape Town, testing their boards through portable amplifiers" width="1080">
 
-*Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
+*Workshop with Dizu Plaatjies in Langa, Cape Town, South Africa, 2024. Participants assemble and patch their CMOS Sound Experimentation Boards through portable amplifiers. Photo: © Paul Modler.*
 
 <br>
 
-<img src="/assets/img/sae-cape-town-2025-02_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town testing their CMOS boards through portable amplifiers" width="1080">
+<img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
 
-*Circuitry-Based Sound workshop at SAE Cape Town, 2025. Participants test and patch their CMOS Sound Experimentation Boards through portable amplifiers. Photo: © Paul Modler.*
+*Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
 
 <br>
 
@@ -140,7 +135,7 @@ This material is for educational and research purposes. Although prepared with c
   - Mono output, ~4 Vpp typical; up to synth/modular level with gains fully open
   - Master output pot provides attenuation toward line level
 - **Connectors:**
-  - **Power in:** 2-pin male header (2.54 mm); mating cable: 2-pos female socket → wire leads (~600 mm)
+  - **Power in:** 2-pin male header (2.54 mm); polarity marked on PCB silkscreen; mating cable: 2-pos female socket → wire leads (~600 mm)
   - **Audio out:** 3.5 mm mono jack
   - **Expansion/control:** 2.54 mm female headers (various pin counts) for patching
 
@@ -453,8 +448,7 @@ In addition to the components required for assembly, a few extra items are neede
 ## Variants
 
 The first version of the CMOS sound generator was developed in 2020 as an early prototype but was later abandoned.
-The design was completely reworked in 2024, resulting in two hardware revisions.
-Revision B (the current version) is documented in this repository.
+The design was completely reworked in 2024 as Version 2.0. Revision A was the first test run in May 2024; Revision B is the current production design, documented in this repository.
 
 A photo of Revision A is shown below:  
 ![Revision A](/assets/img/revision-a.webp)
@@ -569,7 +563,7 @@ Suggested citation:
 
 Original materials in this repository (schematics, board layouts, mechanical drawings, written documentation, and photographs by the author) are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
 
-**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.webp`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_c_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
+**Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.webp`, `bowed-electrons-khwa-ttu-2024-trilogy-02_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_c_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
 
 **Manufacturer datasheets.** PDFs in [`/assets/documents/`](./assets/documents/) are copyright their respective manufacturers and are **not** covered by the CC BY 4.0 license of this repository; they are included for stable educational reference only. See [`/assets/documents/README.md`](./assets/documents/README.md).
 

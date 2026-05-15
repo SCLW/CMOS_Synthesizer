@@ -1,12 +1,13 @@
 {
   "title": "CMOS Sound Experimentation Board",
   "description": "<p>A modular experiment board for hands-on exploration of sound generation using simple 4000-series CMOS logic ICs. Developed at the Karlsruhe University of Arts and Design (HfG Karlsruhe) within the <em>Circuitry-Based Sound</em> seminar. Unlike conventional synthesizers or DSP-based systems, the board relies entirely on discrete CMOS logic chips arranged as a patchable interface for experimental sound creation and live performance. This deposit archives version 1.0.0 of the documentation: complete EAGLE schematics, Gerber files, mechanical drawings, Bill of Materials, and the build guide for hardware revision&nbsp;2.0 Rev&nbsp;B.</p>",
-  "upload_type": "software",
+  "upload_type": "publication",
+  "publication_type": "technicalnote",
   "access_right": "open",
   "license": "cc-by-4.0",
   "language": "eng",
   "version": "1.0.0",
-  "publication_date": "2026-05-14",
+  "publication_date": "2026-05-15",
   "creators": [
     {
       "name": "Schwarz, Lorenz",
