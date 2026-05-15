@@ -68,7 +68,7 @@ The board has been used as a shared platform across the Circuitry-Based Sound pr
 - **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
 - **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
 - **SAE Cape Town workshop**, Cape Town, South Africa (2025)
-- **MKULTRA Sound 2026**, HfG Karlsruhe (February 2026); board signals patched into a hacked VGA video signal generator to produce audiovisual patterns.
+- **MKULTRA Sound 2026**, HfG Karlsruhe (2026)
 
 Boards built by participants have been used in solo and ensemble configurations, patched together via the chained clock and external-input headers. Demo video and context: <https://medienkunst-sound.de/works/cmos-synthesizer>.
 
