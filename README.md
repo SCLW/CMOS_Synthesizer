@@ -554,7 +554,7 @@ Suggested citation:
 
 > Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX). Source: <https://github.com/SCLW/CMOS_Synthesizer>
 
-<!-- After Zenodo mints the DOI, replace the two XXXXXXX placeholders above and the ones in CITATION.cff with the version DOI for v1.0.0. The concept DOI (which always resolves to the latest version) can also be added as a separate line if desired. -->
+<!-- TODO: replace XXXXXXX with Zenodo DOI (here and in CITATION.cff) -->
 
 
 ---

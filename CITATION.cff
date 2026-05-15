@@ -20,9 +20,6 @@ date-released: "2026-05-15"
 license: CC-BY-4.0
 repository-code: "https://github.com/SCLW/CMOS_Synthesizer"
 identifiers:
-  # After Zenodo issues the DOI, fill in the two lines below.
-  # The "concept" DOI always resolves to the latest version on Zenodo;
-  # the "version" DOI is the immutable identifier for this v1.0.0 release.
   - description: "Concept DOI for all versions"
     type: doi
     value: "10.5281/zenodo.XXXXXXX"
