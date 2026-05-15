@@ -4,12 +4,12 @@
 
 The board consists of two PCBs that are assembled separately and joined together: the **main board** and a small **LFSR deadlock-prevention add-on** that mounts on top. Each has its own parts list below. A full build needs both.
 
-- [Main board BOM](#main-board) — through-hole and SMD parts, sourced from Mouser (electronic components) and Reichelt (sockets, headers, potentiometers, switches), plus rotary switches from Das Musikding.
-- [LFSR deadlock-prevention add-on BOM](#lfsr-deadlock-prevention-add-on-board) — SMD-only parts (SOIC ICs, 0805 passives) plus long-leg stacking headers.
+- [Main board BOM](#main-board): through-hole and SMD parts, sourced from Mouser (electronic components) and Reichelt (sockets, headers, potentiometers, switches), plus rotary switches from Das Musikding.
+- [LFSR deadlock-prevention add-on BOM](#lfsr-deadlock-prevention-add-on-board): SMD-only parts (SOIC ICs, 0805 passives) plus long-leg stacking headers.
 
 ## Main board
 
-Most electronic components for the main board — resistors, capacitors, ICs and diodes — can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
+Most electronic components for the main board (resistors, capacitors, ICs and diodes) can be sourced from Mouser Electronics. Mechanical parts including sockets, pin headers, spacers and potentiometers are available from Reichelt Elektronik.
 
 
 | Qty | Value          | Package     | Parts                                               | Description                                     | Manufacturer No.      | Supplier Link                                                                                                                        |
@@ -19,7 +19,7 @@ Most electronic components for the main board — resistors, capacitors, ICs and
 | 1   | 150 kΩ         | R0805       | R26                                                 | SMD Resistor                                    | RC0805JR-07150KL      | [Mouser 603-RC0805JR-07150KL](https://www.mouser.de/ProductDetail/603-RC0805JR-07150KL)                                              |
 | 7   | 10 kΩ          | R0805       | R14, R16–R20, R27                                   | SMD Resistor                                    | RC0805JR-0710KP       | [Mouser 603-RC0805JR-0710KP](https://www.mouser.de/ProductDetail/603-RC0805JR-0710KP)                                                |
 | 8   | 100 kΩ         | R0805       | R9–R12, R21–R22, R24–R25                            | SMD Resistor                                    | CRCW0805100KJNEA      | [Mouser 71-CRCW0805J-100K-E3](https://www.mouser.de/ProductDetail/71-CRCW0805J-100K-E3)                                              |
-| 15  | 10 µF          | PANASONIC_D | C1–C7, C12–C13, C23, C49–C53                        | Electrolytic Capacitor (SMD; C23 optional — depends on master-clock timing choice) | 865230542002          | [Mouser 710-865230542002](https://www.mouser.de/ProductDetail/710-865230542002)                                                      |
+| 15  | 10 µF          | PANASONIC_D | C1–C7, C12–C13, C23, C49–C53                        | Electrolytic Capacitor (SMD; C23 optional, depends on master-clock timing choice) | 865230542002          | [Mouser 710-865230542002](https://www.mouser.de/ProductDetail/710-865230542002)                                                      |
 | 36  | 0.1 µF         | C0805       | C8–C11, C14–C17, C18–C22, C24–C29, C31–C41, C43–C48 | Ceramic Capacitor                               | C0805C104M5RACAUTO    | [Mouser 80-C0805C104M5RAUTO](https://www.mouser.de/ProductDetail/80-C0805C104M5RAUTO)                                                |
 | 14  | 100 kΩ         | POT_VER     | U$1–U$14                                            | Potentiometer, vertical                         | RK09K113-LIN100K      | [Reichelt RK09K113-LIN100K](https://www.reichelt.de/de/de/drehpotentiometer-mono-100-kohm-linear-6-mm-rk09k113-lin100k-p234035.html) |
 | 2   | —              | —           | S12–S13                                             | Tactile pushbutton (momentary, SMD)             | TS04-66-55-BK-160-SMT | [Mouser 179-TS046655BK160SMT](https://www.mouser.de/ProductDetail/179-TS046655BK160SMT)                                              |

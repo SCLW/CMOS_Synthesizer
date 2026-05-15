@@ -63,7 +63,7 @@ The instrument has been used in university seminars, collective performances, an
 
 The board has been used as a shared platform across the Circuitry-Based Sound programme since 2024, including:
 
-- **ng X — next_generation X festival**, ZKM, Karlsruhe (2024)
+- **ng X, next_generation X festival**, ZKM, Karlsruhe (2024)
 - **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
 - **SAE Cape Town workshop**, Cape Town, South Africa (2025)
 - **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
@@ -81,13 +81,25 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 <img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp" alt="Bowed Electrons concert performance at Khwa ttu, structured improvisation with Dizu Plaatjies" width="1080">
 
-*Bowed Electrons / IMMP, concert at !Khwa ttu San Heritage Centre, South Africa, 2024 — structured improvisation with Dizu Plaatjies, combining electronic instruments and South African traditional instruments. Photo: © Clive Pringle.*
+*Bowed Electrons / IMMP, concert at !Khwa ttu San Heritage Centre, South Africa, 2024. Structured improvisation with Dizu Plaatjies, combining electronic instruments and South African traditional instruments. Photo: © Clive Pringle.*
+
+<br>
+
+<img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy-02_c_Clive_Pringle.webp" alt="Close-up of a performer operating a CMOS Sound Experimentation Board during the Bowed Electrons concert at Khwa ttu, with other musicians in the background" width="1080">
+
+*Bowed Electrons / IMMP, !Khwa ttu San Heritage Centre, South Africa, 2024. A performer operates the CMOS Sound Experimentation Board during the concert; other musicians prepare in the background. Photo: © Clive Pringle.*
 
 <br>
 
 <img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
 
 *Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
+
+<br>
+
+<img src="/assets/img/sae-cape-town-2025-02_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town testing their CMOS boards through portable amplifiers" width="1080">
+
+*Circuitry-Based Sound workshop at SAE Cape Town, 2025. Participants test and patch their CMOS Sound Experimentation Boards through portable amplifiers. Photo: © Paul Modler.*
 
 <br>
 
@@ -251,7 +263,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 
 <details>
 
-<summary>PCB Reference Designators and Component List — main board (click to expand)</summary>
+<summary>PCB Reference Designators and Component List, main board (click to expand)</summary>
 
 > This table lists the components for the **main board only**. The LFSR deadlock-prevention add-on has its own component list further down ([here](#lfsr-deadlock-prevention-circuit-required)) and its own entry in the [BOM file](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board).
 
@@ -263,7 +275,7 @@ The main PCB integrates all control elements (potentiometers, toggle switches, t
 | 1      | 150 kΩ         | R0805       | R26                                                 | SMD Resistor                                 |
 | 7      | 10 kΩ          | R0805       | R14, R16–R20, R27                                   | SMD Resistor                                 |
 | 8      | 100 kΩ         | R0805       | R9–R12, R21–R22, R24–R25                            | SMD Resistor                                 |
-| 15     | 10 µF          | PANASONIC_D | C1–C7, C12–C13, C23, C49–C53                        | Electrolytic Capacitor (SMD; C23 optional — depends on master-clock timing choice) |
+| 15     | 10 µF          | PANASONIC_D | C1–C7, C12–C13, C23, C49–C53                        | Electrolytic Capacitor (SMD; C23 optional, depends on master-clock timing choice) |
 | 36     | 0.1 µF         | C0805       | C8–C11, C14–C17, C18–C22, C24–C29, C31–C41, C43–C48 | SMD Ceramic Capacitor                        |
 | 14     | 100 kΩ         | POT_VER     | U$1–U$14                                            | Potentiometer, vertical                      |
 | 2      | —              |             | S12–S13                                             | Tactile pushbutton (momentary, SMD)          |
@@ -355,7 +367,7 @@ The main board's original design included a CD4070 at position **IC18** as part 
 
 <details>
 
-<summary>PCB Reference Designators and Component List — LFSR deadlock-prevention add-on (click to expand)</summary>
+<summary>PCB Reference Designators and Component List, LFSR deadlock-prevention add-on (click to expand)</summary>
 
 > This table lists the components for the **LFSR deadlock-prevention add-on only**. These parts are **not** included in the main-board BOM; for supplier links and manufacturer numbers see [BOM → LFSR deadlock-prevention add-on board](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board).
 
@@ -396,18 +408,18 @@ For more details see [here](/assets/mechanical/README.md#base-plate-drawing).
 
 ## Bill of Materials
 
-A complete build needs parts for **both PCBs**: the main board (mostly through-hole) and the small LFSR deadlock-prevention add-on (SMD-only). The compiled parts list contains a separate table for each — see **[/assets/bom/README.md](/assets/bom/README.md)** for:
+A complete build needs parts for **both PCBs**: the main board (mostly through-hole) and the small LFSR deadlock-prevention add-on (SMD-only). The compiled parts list contains a separate table for each. See **[/assets/bom/README.md](/assets/bom/README.md)** for:
 
-- [Main board BOM](/assets/bom/README.md#main-board) — all components for the main PCB (resistors, capacitors, potentiometers, switches, ICs, connectors, rotary switches).
-- [LFSR deadlock-prevention add-on BOM](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board) — SOIC ICs, 0805 passives, and the long-leg stacking headers that join the add-on to the main board.
+- [Main board BOM](/assets/bom/README.md#main-board): all components for the main PCB (resistors, capacitors, potentiometers, switches, ICs, connectors, rotary switches).
+- [LFSR deadlock-prevention add-on BOM](/assets/bom/README.md#lfsr-deadlock-prevention-add-on-board): SOIC ICs, 0805 passives, and the long-leg stacking headers that join the add-on to the main board.
 
 Most components are available from Mouser Electronics and Reichelt Elektronik (Germany). The rotary switches were sourced from the German supplier [Das Musikding](https://www.musikding.de/Drehschalter-1-Pole-8-Stellungen-print) (item no. 1996).
 
 Since the design uses standard SMD parts and common 4000-series CMOS ICs, most components can be substituted with equivalent parts using the same footprints. Many values are non-critical (e.g., oscillator capacitors) and may be adjusted for experimentation.
 
 **Reference shopping carts (snapshots)**
-- [/assets/bom/warenkorb-reichelt.pdf](/assets/bom/warenkorb-reichelt.pdf) — Reichelt cart (mechanical / sockets / headers)  
-- [/assets/bom/das-musikding.pdf](/assets/bom/das-musikding.pdf) — Musikding cart (rotary switches)
+- [/assets/bom/warenkorb-reichelt.pdf](/assets/bom/warenkorb-reichelt.pdf): Reichelt cart (mechanical / sockets / headers)  
+- [/assets/bom/das-musikding.pdf](/assets/bom/das-musikding.pdf): Musikding cart (rotary switches)
 
 > Mouser supplies the SMD passives and ICs. The compiled BOM at [/assets/bom/README.md](/assets/bom/README.md) lists every Mouser part number and direct product link; an online shopping cart snapshot is not bundled because Mouser's cart export embeds session-context URLs.
 
@@ -555,7 +567,7 @@ Suggested citation:
 
 ## License
 
-Original materials in this repository — schematics, board layouts, mechanical drawings, written documentation, and photographs by the author — are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
+Original materials in this repository (schematics, board layouts, mechanical drawings, written documentation, and photographs by the author) are licensed under the [Creative Commons Attribution 4.0 International license (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). The full legal text is included in [`LICENSE.md`](./LICENSE.md).
 
 **Photographs by third parties.** Images whose filenames carry a `_c_<photographer>` credit (e.g., `IMG_5902_c_Hongyu_Guo.webp`, `cmos-synth-edit_c_Tobias_Ehrhardt.webp`, `bowed-electrons-khwa-ttu-2024-trilogy_c_Clive_Pringle.webp`, `sae-cape-town-2025_c_Paul_Modler.webp`, `Konzert26_c_Jihye_Gebhart-*.webp`) remain **© the named photographer** and are included here with their permission for documentation of the project. They are **not** covered by the CC BY 4.0 license of this repository; reuse requires attribution to the named photographer and, for uses beyond documenting this project, their direct permission.
 

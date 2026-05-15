@@ -1,4 +1,4 @@
-# CMOS Sound Experimentation Board — Schematics (PDF)
+# CMOS Sound Experimentation Board: Schematics (PDF)
 
 > Functional-block schematics for the [CMOS Sound Experimentation Board](../../README.md). For overall context, build guide, and licensing see the main README.
 

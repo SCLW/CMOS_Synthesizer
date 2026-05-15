@@ -1,4 +1,4 @@
-# IC Datasheets — Third-Party Reference Material
+# IC Datasheets: Third-Party Reference Material
 
 > Component datasheets for the [CMOS Sound Experimentation Board](../../README.md). For overall context, build guide, and licensing of original repository materials see the main README.
 
