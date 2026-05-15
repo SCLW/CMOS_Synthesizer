@@ -18,7 +18,7 @@ Technically, the board integrates discrete 4000-series CMOS logic chips on a sin
 
 | **Project Title**     | CMOS Sound Experimentation Board                                                                                                            |
 | :-------------------- | :------------------------------------------------------------------------------------------------------------------------------------------ |
-| **Hardware Version**      | 2.0 (Rev B; first complete 2024 redesign of an earlier 2020 prototype now superseded)                                                   |
+| **Hardware Version**      | 2.0 (Rev B; complete 2024 redesign of an earlier 2020 prototype now superseded)                                                   |
 | **Documentation Release** | v1.0.0 (first archived release of this repository)                                                                                      |
 | **Author / Designer** | Lorenz Schwarz                                                                                                                              |
 | **Status**            | Completed                                                                                                                                   |
@@ -64,10 +64,10 @@ The instrument has been used in university seminars, collective performances, an
 The board has been used as a shared platform across the Circuitry-Based Sound programme since 2024, including:
 
 - **ng X, next_generation X festival**, ZKM, Karlsruhe (2024)
-- **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
 - **Workshop with Dizu Plaatjies**, Langa, Cape Town, South Africa (2024)
-- **SAE Cape Town workshop**, Cape Town, South Africa (2025)
+- **Bowed Electrons / IMMP**, !Khwa ttu San Heritage Centre, South Africa (2024)
 - **Open M Art Fair**, OōEli Hangzhou Tianmuli, Hangzhou (2025)
+- **SAE Cape Town workshop**, Cape Town, South Africa (2025)
 - **MKULTRA Sound 2026**, HfG Karlsruhe (February 2026); board signals patched into a hacked VGA video signal generator to produce audiovisual patterns.
 
 Boards built by participants have been used in solo and ensemble configurations, patched together via the chained clock and external-input headers. Demo video and context: <https://medienkunst-sound.de/works/cmos-synthesizer>.
@@ -80,27 +80,27 @@ Boards built by participants have been used in solo and ensemble configurations,
 
 <br>
 
-<img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy-02_c_Clive_Pringle.webp" alt="Close-up of a performer operating a CMOS Sound Experimentation Board during the Bowed Electrons concert at Khwa ttu, with other musicians in the background" width="1080">
-
-*Bowed Electrons / IMMP, !Khwa ttu San Heritage Centre, South Africa, 2024. A performer operates the CMOS Sound Experimentation Board during the concert; other musicians prepare in the background. Photo: © Clive Pringle.*
-
-<br>
-
 <img src="/assets/img/dizu-plaatjies-langa-2024_c_Paul_Modler.webp" alt="Participants of a CMOS Sound Experimentation Board workshop at Dizu Plaatjies's place in Langa, Cape Town, testing their boards through portable amplifiers" width="1080">
 
 *Workshop with Dizu Plaatjies in Langa, Cape Town, South Africa, 2024. Participants assemble and patch their CMOS Sound Experimentation Boards through portable amplifiers. Photo: © Paul Modler.*
 
 <br>
 
-<img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
+<img src="/assets/img/bowed-electrons-khwa-ttu-2024-trilogy-02_c_Clive_Pringle.webp" alt="Close-up of a performer operating a CMOS Sound Experimentation Board during the Bowed Electrons concert at Khwa ttu, with other musicians in the background" width="1080">
 
-*Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
+*Bowed Electrons / IMMP, !Khwa ttu San Heritage Centre, South Africa, 2024. A performer operates the CMOS Sound Experimentation Board during the concert; other musicians prepare in the background. Photo: © Clive Pringle.*
 
 <br>
 
 <img src="/assets/img/IMG_9973_c_Yunfei_Zhang.webp" alt="Visitors inspecting the CMOS board at the Open M Art Fair, Hangzhou" width="1080">
 
 *Visitors inspecting the CMOS Sound Experimentation Board at the Open M Art Fair, OōEli Hangzhou Tianmuli, China, 2025. Photo: © Yunfei Zhang.*
+
+<br>
+
+<img src="/assets/img/sae-cape-town-2025_c_Paul_Modler.webp" alt="Participants of the Circuitry-Based Sound workshop at SAE Cape Town working with the boards" width="1080">
+
+*Circuitry-Based Sound workshop at SAE Cape Town, with participants working on the boards, 2025. Photo: © Paul Modler.*
 
 <br>
 
