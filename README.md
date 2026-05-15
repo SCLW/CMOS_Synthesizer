@@ -552,9 +552,7 @@ If you use the CMOS Sound Experimentation Board, its documentation, schematics, 
 
 Suggested citation:
 
-> Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. DOI: [10.5281/zenodo.XXXXXXX](https://doi.org/10.5281/zenodo.XXXXXXX). Source: <https://github.com/SCLW/CMOS_Synthesizer>
-
-<!-- TODO: replace XXXXXXX with Zenodo DOI (here and in CITATION.cff) -->
+> Schwarz, Lorenz. *CMOS Sound Experimentation Board* (v1.0.0). HfG Karlsruhe, 2026. DOI: [10.5281/zenodo.20207839](https://doi.org/10.5281/zenodo.20207839). Source: <https://github.com/SCLW/CMOS_Synthesizer>
 
 
 ---

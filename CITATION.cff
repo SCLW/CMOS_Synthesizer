@@ -22,10 +22,10 @@ repository-code: "https://github.com/SCLW/CMOS_Synthesizer"
 identifiers:
   - description: "Concept DOI for all versions"
     type: doi
-    value: "10.5281/zenodo.XXXXXXX"
+    value: "10.5281/zenodo.20207838"
   - description: "Version DOI for v1.0.0"
     type: doi
-    value: "10.5281/zenodo.XXXXXXX"
+    value: "10.5281/zenodo.20207839"
 references:
   - type: software
     title: "Circuitry-Based Sound"
